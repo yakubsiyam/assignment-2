@@ -1,0 +1,305 @@
+/* Universal */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+}
+
+
+/* Gloval Content  */
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+/*  Header  */
+
+#nav-bar{
+    margin-top: 4rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-left: 4rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #3c3c3c;
+}
+
+/* Showcase */
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+#showcase-1{
+    margin-top: 7.5rem;
+}
+
+#showcase-1-text{
+    margin-top: 2rem;
+}
+
+.showcase-1-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+    font-weight: bold;
+    color: #363958;
+}
+
+.showcase-1-text h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 8rem;
+    font-weight: bold;
+    color: #ff8367;
+    margin-top: -2rem;
+}
+
+.showcase-1-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    font-weight: regular;
+    color: #6d6d6d;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+.showcase-1-text .btn {
+    height: 6rem;
+    width: 14rem;
+    background-color: #f76760;
+    border-radius: 5px;
+    margin-top: 4.4rem;
+}
+
+.showcase-1-text .btn p{
+    font-family: 'Roboto', sans-serif;
+    padding-right: 1rem;
+    font-size: 1.6rem;
+    padding: 1.9rem 0 1.9rem 1.9rem;
+    color: #fff;
+}
+
+.showcase-1-img img{
+    width: 60rem; 
+    height: auto;
+    margin-left: 13rem;
+}
+
+/* showcase-2 */
+
+.showcase-2-img img{
+    width: 50rem; 
+    height: auto;
+    margin-top: -10rem;
+}
+
+.showcase-2-text{
+    margin-left: 20rem;
+    margin-top: 10rem;
+}
+
+.showcase-2-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4.8rem;
+    font-weight: bold;
+    color: #363958;
+}
+
+.showcase-2-text p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+    width: 44rem;
+    line-height: 1.5;
+    color: #6d6d6d;
+}
+
+.showcase-2-text .btn {
+    height: 6rem;
+    width: 15rem;
+    background-color: #f76760;
+    border-radius: 5px;
+    margin-top: 4.4rem;
+}
+
+.showcase-2-text .btn p{
+    font-family: 'Roboto', sans-serif;
+    padding-right: 1rem;
+    font-size: 1.6rem;
+    padding: 1.9rem 0 1.9rem 1.9rem;
+    color: #fff;
+}
+
+/* Work section */
+
+#work{
+    background-color: #f8f9fc;
+    margin-top: 7rem;
+    padding-bottom: 12rem;
+}
+
+#work .top-heading h1{
+    font-size: 4.8rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+    color: #363958;
+    text-align: center;
+    padding-top: 12.5rem;
+    padding-bottom: 9rem;
+}
+
+#work .top-heading h1 span{
+    color: #f46060;
+}
+
+.work-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.work-item-1,
+.work-item-2,
+.work-item-3{
+    width: 34rem;
+    height: 37rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2rem;
+}
+
+.work-item-1 img,
+.work-item-2 img,
+.work-item-3 img{
+    width: 34rem;
+    height: auto;
+    padding: 1.5rem;
+}
+
+.work-item-1 h1,
+.work-item-2 h1,
+.work-item-3 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+    color: #363958;
+}
+
+.work-item-1 p,
+.work-item-2 p,
+.work-item-3 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    padding-left: 1.5rem;
+    color: 909090;
+    padding-top: 2rem;
+}
+
+/* inquiry section */
+
+#inquiry{
+    background-image: url(./images/inquiry-image.png);
+    width: 90rem;
+    height: 25rem;
+    border-radius: 15px;
+    margin-top: 10rem;
+    margin-left: 22.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.inquiry-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inquiry-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6rem;
+    padding-top: 9rem;
+    color: #ffffff;
+}
+
+.inquiry-text .btn {
+    height: 6rem;
+    width: 15rem;
+    background-color: #f76760;
+    border-radius: 5px;
+    margin-top: 9rem;
+}
+
+.inquiry-text .btn p{
+    font-family: 'Roboto', sans-serif;
+    padding-right: 1rem;
+    font-size: 1.6rem;
+    padding: 1.9rem 0 1.9rem 1.9rem;
+    color: #fff;
+}
+
+/*footer */
+
+footer{
+    margin-top: 9rem;
+    margin-bottom: 6rem;
+}
+
+.footer-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.4rem;
+    font-weight: bold;
+    word-spacing: 1.5;
+    text-align: center;
+    color: #696871;
+}
+
+.footer-text h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: #363958;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.footer-icon ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon img{
+    width: auto;
+    height: 6rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
